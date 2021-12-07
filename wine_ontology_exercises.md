@@ -1,7 +1,7 @@
 # Wine ontology exercises
 
 * Write DL queries for:
-   * wines that are made from Nebiollo grapes 
+   * wines that are made from Nebbiolo verietal grapes 
    * wines from Piedmont
   
 
