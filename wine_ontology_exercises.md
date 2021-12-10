@@ -1,8 +1,8 @@
 # Wine ontology exercises
 
 * Write DL queries for:
-   * wines that are `made_from` Nebbiolo verietal grapes 
-   * wines `grown_in` Piedmont
+   * wines that are made from Nebbiolo verietal grapes 
+   * wines grown in Piedmont
 
 * Given that 'Chardonnay wine' is a generic names for wines made from Chardonnay (varietal) grapes. Add a term for Chardonnay (wine) with an appropriate logical definition.  What does the reasoner classify as Chardonay?
 * View the relationships (subClassOf axioms) of Chianti (wine).  How might these frustrate attempts to classify wines using the pattern you just used to define Chardonay wine?  
