@@ -223,6 +223,7 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red> <
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine> "Red (wine)")
 EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>)))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+DisjointClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region> (region)
 
@@ -389,6 +390,5 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://www.semanticw
 ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl/tasting_notes> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl/grassy>)
 
 
-DisjointClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>)
 SubObjectPropertyOf(ObjectPropertyChain(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region_of>) <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in>)
 )
