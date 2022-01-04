@@ -38,6 +38,7 @@ Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>))
+Declaration(Class(owl:Nothing))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from>))
@@ -89,6 +90,7 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbar
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> "Barolo")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Nebbiolo>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Piedmont>))
 
@@ -225,6 +227,10 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>
 
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine> "white wine")
 EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>)))
+
+# Class: owl:Nothing (owl:Nothing)
+
+EquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>) ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>)))
 
 
 ############################
