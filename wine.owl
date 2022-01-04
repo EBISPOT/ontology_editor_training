@@ -41,7 +41,7 @@ Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose_wine>))
-Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#testing_term>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#tasting_term>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine>))
@@ -141,7 +141,7 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardo
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry>)
 
-SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#testing_term>)
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#tasting_term>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste>)
 
@@ -160,7 +160,7 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chiant
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee>)
 
-SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#testing_term>)
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#tasting_term>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste>)
 
