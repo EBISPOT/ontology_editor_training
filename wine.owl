@@ -10,39 +10,62 @@ Ontology(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl>
 
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy_gamay>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Canaiolo>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti_wine>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_Chardonnay>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_wine>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Gamay>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#German_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italian_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Malvasia_bianca>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Mateus_Rosé>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Nebbiolo>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Grigio>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Noir>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Sangiovesse>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Zinfandel>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#color>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose_wine>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#tasting_term>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>))
+Declaration(Class(owl:Nothing))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_tasting_term>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from>))
 Declaration(ObjectProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region_of>))
 Declaration(DataProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#year>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Ahr>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo_Villero_2015>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#France>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Germany>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italy>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Piedmont>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Puglia>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder_Trocken_2018>))
 Declaration(AnnotationProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called>))
+Declaration(AnnotationProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_taste>))
 ############################
 #   Annotation Properties
 ############################
@@ -50,6 +73,11 @@ Declaration(AnnotationProperty(<http://www.semanticweb.org/davidos/ontologies/20
 # Annotation Property: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called>)
 
 AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called> "Primitivo")
+
+# Annotation Property: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_taste> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_taste>)
+
+AnnotationPropertyRange(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_taste> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#taste>)
+AnnotationPropertyDomain(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_taste> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 
 
 ############################
@@ -80,8 +108,14 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbar
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> "Barolo")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_tasting_term> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Nebbiolo>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Piedmont>))
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy_gamay> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy_gamay>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy_gamay> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Gamay>) ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy_gamay> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Canaiolo> (Canaiolo)
 
@@ -96,10 +130,23 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chabli
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis_wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis_wine> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis>))
 
-# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay> (Chardonnay)
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay>)
 
-AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay> "Chardonnay")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#tasting_term>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_tasting_term> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Cherry_taste> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti_wine> (Chianti (wine))
 
@@ -111,10 +158,33 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chiant
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti_wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Sangiovesse>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti_wine> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti>))
 
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#tasting_term>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_tasting_term> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee_taste> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_Chardonnay> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_Chardonnay>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_Chardonnay> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Burgundy>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_Chardonnay> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chardonnay_wine>)
+
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_wine> (French wine)
 
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_wine> "French wine")
 EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#France>)))
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Gamay> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Gamay>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Gamay> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#German_wine> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#German_wine>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#German_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Germany>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#German_wine> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italian_wine> (Italian wine)
 
@@ -126,21 +196,53 @@ EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Malvasia_bianca> "Malvasia bianca")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Malvasia_bianca> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
 
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Mateus_Rosé> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Mateus_Rosé>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Mateus_Rosé> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Mateus_Rosé> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose>))
+
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Nebbiolo> (Nebbiolo)
 
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Nebbiolo> "Nebbiolo")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Nebbiolo> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Grigio> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Grigio>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Grigio> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Grigio> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange>))
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Noir> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Noir>)
+
+AnnotationAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Noir> "Spätburgunder")
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Noir> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Sangiovesse> (Sangiovesse)
 
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Sangiovesse> "Sangiovesse")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Sangiovesse> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
 
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_tasting_term> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Coffee>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Pinot_Noir>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> ObjectHasValue(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Ahr>))
+
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Zinfandel> (Zinfandel)
 
 AnnotationAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Zinfandel> "Primitivo")
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Zinfandel> "Zinfandel")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Zinfandel> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange>)
+
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#color>)
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange_wine> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange_wine>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#orange_wine> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red> (red)
 
@@ -161,6 +263,11 @@ AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/20
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose> "rose")
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#color>)
 
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose_wine> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose_wine>)
+
+EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose>)))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#rose_wine> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine>)
+
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal> (varietal)
 
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#varietal> "varietal")
@@ -175,10 +282,19 @@ SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine> "white wine")
 EquivalentClasses(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine> ObjectIntersectionOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine> ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>)))
 
+# Class: owl:Nothing (owl:Nothing)
+
+EquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red>) ObjectSomeValuesFrom(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white>)))
+
 
 ############################
 #   Named Individuals
 ############################
+
+# Individual: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Ahr> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Ahr>)
+
+ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Ahr>)
+ObjectPropertyAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region_of> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Ahr> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Germany>)
 
 # Individual: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo_Villero_2015> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo_Villero_2015>)
 
@@ -206,6 +322,10 @@ ObjectPropertyAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wi
 
 ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#France>)
 
+# Individual: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Germany> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Germany>)
+
+ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Germany>)
+
 # Individual: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italy> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italy>)
 
 ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italy>)
@@ -219,6 +339,11 @@ ObjectPropertyAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wi
 
 ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Puglia>)
 ObjectPropertyAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region_of> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Puglia> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italy>)
+
+# Individual: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder_Trocken_2018> (<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder_Trocken_2018>)
+
+ClassAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder_Trocken_2018>)
+DataPropertyAssertion(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#year> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Spätburgunder_Trocken_2018> "2018"^^xsd:integer)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region_of>) <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in>)
