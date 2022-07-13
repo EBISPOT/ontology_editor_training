@@ -11,6 +11,6 @@
 ### More advanced exercises
 * Add axiomatization to detect an error (inconsistency) if a user adds a wine that is asserted or inferred to be both red and white.
 * Following the patterns used in the ontology, add a region of Germany and a wine from that region and a general class for German wine.
-* Explain, in clear English, why the reasoner classifies this wine as German.
+   * Explain, in clear English, why the reasoner classifies this wine as German.
 * Add some individual wines following the pattern used to define Barolo_Villero_2015
-* Extend the ontology to add terms for [tasting notes](https://londonwineacademy.com/wine-tasting-terms/) and use these to classify Individual wines?
+* Extend the ontology to add terms for [tasting notes](https://londonwineacademy.com/wine-tasting-terms/) and use these to classify Individual wines.
