@@ -1,5 +1,5 @@
 # GitHub Training material
 
 1. This section is used to train on GitHub
-1. There is an error in swpelling in this line
-1. Fix the above line and make a Pull Request 
+1. There is an error in spelling in this line
+1. Fix the above line and make a Pull Request
