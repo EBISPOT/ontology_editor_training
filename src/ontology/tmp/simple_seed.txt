@@ -1,0 +1,8 @@
+cls
+http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called
+http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#grown_in
+http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color
+http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from
+http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#region_of
+http://www.geneontology.org/formats/oboInOwl#SubsetProperty
+http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty

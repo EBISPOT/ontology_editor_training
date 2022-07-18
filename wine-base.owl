@@ -1,14 +1,16 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/wine.owl#"
-     xml:base="http://purl.obolibrary.org/obo/wine.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/wine/wine-base.owl#"
+     xml:base="http://purl.obolibrary.org/obo/wine/wine-base.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:wine="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wine.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wine/releases/2022-07-18/wine.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wine/wine-base.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wine/releases/2022-07-18/wine-base.owl"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-07-18</owl:versionInfo>
     </owl:Ontology>
     
@@ -106,8 +108,13 @@
     <!-- http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italian_wine"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from"/>
@@ -128,8 +135,13 @@
     <!-- http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italian_wine"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from"/>
@@ -159,8 +171,13 @@
     <!-- http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis_wine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chablis_wine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#French_wine"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white_wine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from"/>
@@ -190,8 +207,13 @@
     <!-- http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti_wine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Chianti_wine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Italian_wine"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red_wine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#made_from"/>
@@ -235,7 +257,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
         <rdfs:label>French wine</rdfs:label>
     </owl:Class>
     
@@ -255,7 +276,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
         <rdfs:label>Italian wine</rdfs:label>
     </owl:Class>
     
@@ -327,13 +347,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#red"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>red wine</rdfs:label>
     </owl:Class>
     
@@ -387,13 +400,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#wine"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#has_color"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#white"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>white wine</rdfs:label>
     </owl:Class>
     

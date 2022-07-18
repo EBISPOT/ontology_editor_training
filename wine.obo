@@ -1,0 +1,123 @@
+format-version: 1.2
+data-version: releases/2022-07-18
+ontology: wine
+property_value: owl:versionInfo "2022-07-18" xsd:string
+
+[Term]
+id: Barbaresco
+name: Barbaresco
+is_a: Italian_wine ! Italian wine
+is_a: red_wine ! red wine
+relationship: made_from Nebbiolo ! Nebbiolo
+
+[Term]
+id: Barolo
+name: Barolo
+is_a: Italian_wine ! Italian wine
+is_a: red_wine ! red wine
+relationship: made_from Nebbiolo ! Nebbiolo
+
+[Term]
+id: Canaiolo
+name: Canaiolo
+is_a: varietal ! varietal
+
+[Term]
+id: Chablis_wine
+name: Chablis (wine)
+is_a: French_wine ! French wine
+is_a: white_wine ! white wine
+relationship: made_from Chardonnay ! Chardonnay
+
+[Term]
+id: Chardonnay
+name: Chardonnay
+is_a: varietal ! varietal
+
+[Term]
+id: Chianti_wine
+name: Chianti (wine)
+is_a: Italian_wine ! Italian wine
+is_a: red_wine ! red wine
+relationship: made_from Canaiolo ! Canaiolo
+relationship: made_from Malvasia_bianca ! Malvasia bianca
+relationship: made_from Sangiovesse ! Sangiovesse
+
+[Term]
+id: French_wine
+name: French wine
+is_a: wine
+
+[Term]
+id: Italian_wine
+name: Italian wine
+is_a: wine
+
+[Term]
+id: Malvasia_bianca
+name: Malvasia bianca
+is_a: varietal ! varietal
+
+[Term]
+id: Nebbiolo
+name: Nebbiolo
+is_a: varietal ! varietal
+
+[Term]
+id: Sangiovesse
+name: Sangiovesse
+is_a: varietal ! varietal
+
+[Term]
+id: Zinfandel
+name: Zinfandel
+is_a: varietal ! varietal
+property_value: also_called "Primitivo" xsd:string
+
+[Term]
+id: red
+name: red
+is_a: color
+
+[Term]
+id: red_wine
+name: red wine
+is_a: wine
+intersection_of: wine
+intersection_of: has_color red ! red
+relationship: has_color red ! red
+
+[Term]
+id: region
+name: region
+
+[Term]
+id: rose
+name: rose
+is_a: color
+
+[Term]
+id: varietal
+name: varietal
+
+[Term]
+id: white
+name: white
+is_a: color
+
+[Term]
+id: white_wine
+name: white wine
+is_a: wine
+intersection_of: wine
+intersection_of: has_color white ! white
+relationship: has_color white ! white
+
+[Typedef]
+id: grown_in
+transitive_over: region_of
+
+[Typedef]
+id: region_of
+is_transitive: true
+

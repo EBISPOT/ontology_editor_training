@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/wine.owl#"
-     xml:base="http://purl.obolibrary.org/obo/wine.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/wine/wine-full.owl#"
+     xml:base="http://purl.obolibrary.org/obo/wine/wine-full.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:wine="http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wine.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wine/releases/2022-07-18/wine.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wine/wine-full.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wine/releases/2022-07-18/wine-full.owl"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-07-18</owl:versionInfo>
     </owl:Ontology>
     

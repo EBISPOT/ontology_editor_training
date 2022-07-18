@@ -1,0 +1,234 @@
+Prefix(:=<http://purl.obolibrary.org/obo/wine.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(wine:=<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/wine.owl>
+<http://purl.obolibrary.org/obo/wine/releases/2022-07-18/wine.owl>
+Annotation(owl:versionInfo "2022-07-18"^^xsd:string)
+
+Declaration(Class(wine:Barbaresco))
+Declaration(Class(wine:Barolo))
+Declaration(Class(wine:Canaiolo))
+Declaration(Class(wine:Chablis_wine))
+Declaration(Class(wine:Chardonnay))
+Declaration(Class(wine:Chianti_wine))
+Declaration(Class(wine:French_wine))
+Declaration(Class(wine:Italian_wine))
+Declaration(Class(wine:Malvasia_bianca))
+Declaration(Class(wine:Nebbiolo))
+Declaration(Class(wine:Sangiovesse))
+Declaration(Class(wine:Zinfandel))
+Declaration(Class(wine:color))
+Declaration(Class(wine:red))
+Declaration(Class(wine:red_wine))
+Declaration(Class(wine:region))
+Declaration(Class(wine:rose))
+Declaration(Class(wine:varietal))
+Declaration(Class(wine:white))
+Declaration(Class(wine:white_wine))
+Declaration(Class(wine:wine))
+Declaration(ObjectProperty(wine:grown_in))
+Declaration(ObjectProperty(wine:has_color))
+Declaration(ObjectProperty(wine:made_from))
+Declaration(ObjectProperty(wine:region_of))
+Declaration(DataProperty(wine:year))
+Declaration(NamedIndividual(wine:Barolo_Villero_2015))
+Declaration(NamedIndividual(wine:Burgundy))
+Declaration(NamedIndividual(wine:Chablis))
+Declaration(NamedIndividual(wine:Chianti))
+Declaration(NamedIndividual(wine:France))
+Declaration(NamedIndividual(wine:Italy))
+Declaration(NamedIndividual(wine:Piedmont))
+Declaration(NamedIndividual(wine:Puglia))
+Declaration(AnnotationProperty(wine:also_called))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: wine:also_called (wine:also_called)
+
+AnnotationAssertion(rdfs:comment wine:also_called "Primitivo")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: wine:region_of (wine:region_of)
+
+TransitiveObjectProperty(wine:region_of)
+
+
+
+
+############################
+#   Classes
+############################
+
+# Class: wine:Barbaresco (Barbaresco)
+
+AnnotationAssertion(rdfs:label wine:Barbaresco "Barbaresco")
+SubClassOf(wine:Barbaresco wine:Italian_wine)
+SubClassOf(wine:Barbaresco wine:red_wine)
+SubClassOf(wine:Barbaresco ObjectSomeValuesFrom(wine:made_from wine:Nebbiolo))
+SubClassOf(wine:Barbaresco ObjectHasValue(wine:grown_in wine:Piedmont))
+
+# Class: wine:Barolo (Barolo)
+
+AnnotationAssertion(rdfs:label wine:Barolo "Barolo")
+SubClassOf(wine:Barolo wine:Italian_wine)
+SubClassOf(wine:Barolo wine:red_wine)
+SubClassOf(wine:Barolo ObjectSomeValuesFrom(wine:made_from wine:Nebbiolo))
+SubClassOf(wine:Barolo ObjectHasValue(wine:grown_in wine:Piedmont))
+
+# Class: wine:Canaiolo (Canaiolo)
+
+AnnotationAssertion(rdfs:label wine:Canaiolo "Canaiolo")
+SubClassOf(wine:Canaiolo wine:varietal)
+
+# Class: wine:Chablis_wine (Chablis (wine))
+
+AnnotationAssertion(rdfs:label wine:Chablis_wine "Chablis (wine)")
+SubClassOf(wine:Chablis_wine wine:French_wine)
+SubClassOf(wine:Chablis_wine wine:white_wine)
+SubClassOf(wine:Chablis_wine ObjectSomeValuesFrom(wine:made_from wine:Chardonnay))
+SubClassOf(wine:Chablis_wine ObjectHasValue(wine:grown_in wine:Chablis))
+
+# Class: wine:Chardonnay (Chardonnay)
+
+AnnotationAssertion(rdfs:label wine:Chardonnay "Chardonnay")
+SubClassOf(wine:Chardonnay wine:varietal)
+
+# Class: wine:Chianti_wine (Chianti (wine))
+
+AnnotationAssertion(rdfs:label wine:Chianti_wine "Chianti (wine)")
+SubClassOf(wine:Chianti_wine wine:Italian_wine)
+SubClassOf(wine:Chianti_wine wine:red_wine)
+SubClassOf(wine:Chianti_wine ObjectSomeValuesFrom(wine:made_from wine:Canaiolo))
+SubClassOf(wine:Chianti_wine ObjectSomeValuesFrom(wine:made_from wine:Malvasia_bianca))
+SubClassOf(wine:Chianti_wine ObjectSomeValuesFrom(wine:made_from wine:Sangiovesse))
+SubClassOf(wine:Chianti_wine ObjectHasValue(wine:grown_in wine:Chianti))
+
+# Class: wine:French_wine (French wine)
+
+AnnotationAssertion(rdfs:label wine:French_wine "French wine")
+EquivalentClasses(wine:French_wine ObjectIntersectionOf(wine:wine ObjectHasValue(wine:grown_in wine:France)))
+SubClassOf(wine:French_wine wine:wine)
+
+# Class: wine:Italian_wine (Italian wine)
+
+AnnotationAssertion(rdfs:label wine:Italian_wine "Italian wine")
+EquivalentClasses(wine:Italian_wine ObjectIntersectionOf(wine:wine ObjectHasValue(wine:grown_in wine:Italy)))
+SubClassOf(wine:Italian_wine wine:wine)
+
+# Class: wine:Malvasia_bianca (Malvasia bianca)
+
+AnnotationAssertion(rdfs:label wine:Malvasia_bianca "Malvasia bianca")
+SubClassOf(wine:Malvasia_bianca wine:varietal)
+
+# Class: wine:Nebbiolo (Nebbiolo)
+
+AnnotationAssertion(rdfs:label wine:Nebbiolo "Nebbiolo")
+SubClassOf(wine:Nebbiolo wine:varietal)
+
+# Class: wine:Sangiovesse (Sangiovesse)
+
+AnnotationAssertion(rdfs:label wine:Sangiovesse "Sangiovesse")
+SubClassOf(wine:Sangiovesse wine:varietal)
+
+# Class: wine:Zinfandel (Zinfandel)
+
+AnnotationAssertion(wine:also_called wine:Zinfandel "Primitivo")
+AnnotationAssertion(rdfs:label wine:Zinfandel "Zinfandel")
+SubClassOf(wine:Zinfandel wine:varietal)
+
+# Class: wine:red (red)
+
+AnnotationAssertion(rdfs:label wine:red "red")
+SubClassOf(wine:red wine:color)
+
+# Class: wine:red_wine (red wine)
+
+AnnotationAssertion(rdfs:label wine:red_wine "red wine")
+EquivalentClasses(wine:red_wine ObjectIntersectionOf(wine:wine ObjectSomeValuesFrom(wine:has_color wine:red)))
+SubClassOf(wine:red_wine wine:wine)
+SubClassOf(wine:red_wine ObjectSomeValuesFrom(wine:has_color wine:red))
+
+# Class: wine:region (region)
+
+AnnotationAssertion(rdfs:label wine:region "region")
+
+# Class: wine:rose (rose)
+
+AnnotationAssertion(rdfs:label wine:rose "rose")
+SubClassOf(wine:rose wine:color)
+
+# Class: wine:varietal (varietal)
+
+AnnotationAssertion(rdfs:label wine:varietal "varietal")
+
+# Class: wine:white (white)
+
+AnnotationAssertion(rdfs:label wine:white "white")
+SubClassOf(wine:white wine:color)
+
+# Class: wine:white_wine (white wine)
+
+AnnotationAssertion(rdfs:label wine:white_wine "white wine")
+EquivalentClasses(wine:white_wine ObjectIntersectionOf(wine:wine ObjectSomeValuesFrom(wine:has_color wine:white)))
+SubClassOf(wine:white_wine wine:wine)
+SubClassOf(wine:white_wine ObjectSomeValuesFrom(wine:has_color wine:white))
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: wine:Barolo_Villero_2015 (wine:Barolo_Villero_2015)
+
+ClassAssertion(wine:Barolo wine:Barolo_Villero_2015)
+DataPropertyAssertion(wine:year wine:Barolo_Villero_2015 "2015"^^xsd:integer)
+
+# Individual: wine:Burgundy (Burgundy region)
+
+AnnotationAssertion(rdfs:label wine:Burgundy "Burgundy region")
+ClassAssertion(wine:region wine:Burgundy)
+ObjectPropertyAssertion(wine:region_of wine:Burgundy wine:France)
+
+# Individual: wine:Chablis (Chablis region)
+
+AnnotationAssertion(rdfs:label wine:Chablis "Chablis region")
+ClassAssertion(wine:region wine:Chablis)
+ObjectPropertyAssertion(wine:region_of wine:Chablis wine:Burgundy)
+
+# Individual: wine:Chianti (Chianti region)
+
+AnnotationAssertion(rdfs:label wine:Chianti "Chianti region")
+ObjectPropertyAssertion(wine:region_of wine:Chianti wine:Italy)
+
+# Individual: wine:France (wine:France)
+
+ClassAssertion(wine:region wine:France)
+
+# Individual: wine:Italy (wine:Italy)
+
+ClassAssertion(wine:region wine:Italy)
+
+# Individual: wine:Piedmont (wine:Piedmont)
+
+ClassAssertion(wine:region wine:Piedmont)
+ObjectPropertyAssertion(wine:region_of wine:Piedmont wine:Italy)
+
+# Individual: wine:Puglia (wine:Puglia)
+
+ClassAssertion(wine:region wine:Puglia)
+ObjectPropertyAssertion(wine:region_of wine:Puglia wine:Italy)
+
+
+SubObjectPropertyOf(ObjectPropertyChain(wine:grown_in wine:region_of) wine:grown_in)
+)

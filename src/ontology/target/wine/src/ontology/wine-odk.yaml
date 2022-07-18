@@ -1,0 +1,16 @@
+id: wine
+title: "Wine Ontology"
+github_org: EBISPOT
+repo: ontology_editor_training
+#report_fail_on: ERROR
+report_fail_on: None
+use_dosdps: TRUE
+export_formats:
+  - owl
+  - obo
+release_artefacts: 
+  - base
+  - full
+  - simple
+primary_release: full
+robot_java_args: '-Xmx12G'
