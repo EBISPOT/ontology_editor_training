@@ -14,3 +14,14 @@
    * Explain, in clear English, why the reasoner classifies this wine as German.
 * Add some individual wines following the pattern used to define Barolo_Villero_2015
 * Extend the ontology to add terms for [tasting notes](https://londonwineacademy.com/wine-tasting-terms/) and use these to classify Individual wines.
+
+### Templating exercises
+* Extend CSVs on an existing template in an ODK (dynamic loading) on the wine ontology. Use to illustrate how templates are structured and how build commands work.
+    * ROBOT template for adding individuals 
+        * add Spain and at least 3 of its regions (see https://en.wikipedia.org/wiki/Autonomous_communities_of_Spain)
+        * add the Italian regions of Veneto and Etna.
+    * DOSDP for wine by region - extend csv
+        * add wines of all the regions including those you've added using the above ROBOT template. 
+* Writing new templates
+    * Write a new DOSDP for wine by varietal.
+    * Write a ROBOT template for one-off addition of content (details TBD).
