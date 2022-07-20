@@ -12,8 +12,12 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
+
 Ontology(<http://purl.obolibrary.org/obo/wine.owl>
 
+Import(<http://purl.obolibrary.org/obo/wine/components/regions.owl>)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010003>))
