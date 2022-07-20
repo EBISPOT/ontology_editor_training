@@ -1,20 +1,15 @@
-Prefix(WINE:=<http://purl.obolibrary.org/obo/WINE_>)
+Prefix(:=<http://purl.obolibrary.org/obo/wine.owl/>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(WINE:=<http://purl.obolibrary.org/obo/WINE_>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/wine.owl>
-
 Import(<http://purl.obolibrary.org/obo/wine/components/regions.owl>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010000>))
@@ -45,8 +40,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/WINE_0000004>))
 Declaration(DataProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#year>))
 Declaration(NamedIndividual(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo_Villero_2015>))
 Declaration(AnnotationProperty(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#also_called>))
-
-
 ############################
 #   Annotation Properties
 ############################
@@ -124,10 +117,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0030002> ObjectIntersecti
 # Class: <http://purl.obolibrary.org/obo/WINE_0030003> (French wine)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0030003> "French wine")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0030003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040002>)))
 
 # Class: <http://purl.obolibrary.org/obo/WINE_0030004> (Italian wine)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0030004> "Italian wine")
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0030004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040001>)))
 
 # Class: <http://purl.obolibrary.org/obo/WINE_0040000> (region)
 
