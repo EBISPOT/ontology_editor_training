@@ -44,6 +44,6 @@ generated_synonyms:
         
 logical_axioms:
    - axiom_type: EquivalentTo
-        text: "'wine' and 'grown_in' some %s"
+        text: "'wine' and 'grown_in' value %s"
         vars:
            - region
