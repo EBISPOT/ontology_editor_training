@@ -1,0 +1,49 @@
+pattern_name: wine-by-region
+pattern_iri: http://purl.obolibrary.org/obo/odk/wine-by-region.yaml
+description: "Class template for wines by region"
+
+classes:
+  "wine": WINE:0030000
+  "color": WINE:0010000
+  "region": WINE:0040000
+  "varietal": WINE:0020000
+
+relations:
+  region_of: WINE:0000004
+  made_from: WINE:0000003
+  has_color: WINE:0000002
+  grown_in: WINE:0000001
+
+annotationProperties:
+  skosPrefLabel: "skos:prefLabel"
+  hasExactSynonym: "oboInOwl:hasExactSynonym"
+  rdfsComment: "rdfs:comment"
+  hasDbXref: "oboInOwl:hasDbXref"
+
+vars:
+  - region: "'region'"
+
+data_list_vars:
+  reference: "xsd:string"
+  
+name:
+   text: "wine of %"
+   vars:
+      - region
+
+def:
+  xrefs: reference
+  - text: "A wine that comes from the region of %."
+    vars:
+      - region
+
+generated_synonyms:
+   - text: "% (wine)"
+     vars:
+        - region
+        
+logical_axioms:
+   - axiom_type: EquivalentTo
+        text: "'wine' and 'grown_in' some %s"
+        vars:
+           - region
