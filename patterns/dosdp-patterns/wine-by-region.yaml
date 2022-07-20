@@ -37,10 +37,6 @@ def:
     vars:
       - region
 
-generated_synonyms:
-   - text: "% (wine)"
-     vars:
-        - region
         
 logical_axioms:
    - axiom_type: EquivalentTo
