@@ -8,8 +8,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0030000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/odk/wine-by-region.yaml>))
 Declaration(Class(<http://purl.obolibrary.org/obo/wine/example.yaml>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/WINE_0000001>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 
 
@@ -18,11 +23,19 @@ Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/odk/wine-by-region.yaml> (wine of 'region')
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/odk/wine-by-region.yaml> "A wine that comes from the region of 'region'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/odk/wine-by-region.yaml> "wine-by-region"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/odk/wine-by-region.yaml> "wine of 'region'"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/odk/wine-by-region.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040000>)))
+
 # Class: <http://purl.obolibrary.org/obo/wine/example.yaml> (Part of 'example')
 
 AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/wine/example.yaml> "example"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/wine/example.yaml> "Part of 'example'"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/wine/example.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> owl:Thing))
+
 
 
 )
