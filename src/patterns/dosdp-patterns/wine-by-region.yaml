@@ -1,0 +1,33 @@
+pattern_name: wine-by-region
+pattern_iri: http://purl.obolibrary.org/obo/odk/wine-by-region.yaml
+description: "Class template for wines by region"
+
+classes:
+  wine: WINE:0030000
+  region: WINE:0040000
+
+relations:
+  grown_in: WINE:0000001
+
+vars:
+  region: "'region'"
+
+data_list_vars:
+  reference: "xsd:string"
+  
+name:
+  text: "wine of %s"
+  vars:
+      - region
+
+def:
+    text: "A wine that comes from the region of %s."
+    vars:
+      - region
+
+        
+logical_axioms:
+  - axiom_type: equivalentTo
+    text: "'wine' and 'grown_in' value %s"
+    vars:
+       - region
