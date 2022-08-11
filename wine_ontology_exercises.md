@@ -4,8 +4,8 @@
    * wines that are made from Nebbiolo verietal grapes 
    * wines from Piedmont
 
-* Given that 'Chardonnay wine' is a generic names for wines made from Chardonnay (varietal) grapes, add a term for Chardonnay (wine) with an appropriate logical definition.  What does the reasoner classify as Chardonay?
-* View the relationships (subClassOf axioms) of Chianti (wine).  How might these frustrate attempts to classify wines using the pattern you just used to define Chardonay wine?  
+* Given that 'Nebbiolo wine' is a generic names for wines made from Nebbiolo (varietal) grapes, add a term for Nebbiolo (wine) with an appropriate logical definition.  What does the reasoner classify as Nebbiolo?
+* View the relationships (subClassOf axioms) of Chianti Classico (wine).  How might these frustrate attempts to classify wines using the pattern you just used to define Nebbiolo wine?  
 * Add a term for [Rosé wine](https://en.wikipedia.org/wiki/Ros%C3%A9) or [orange wine](https://en.wikipedia.org/wiki/Orange_wine) and some terms for specific wines that will be auto-classified under it. 
 
 ### More advanced exercises
@@ -22,6 +22,8 @@
         * add the Italian regions of Veneto and Etna.
     * DOSDP for wine by region - extend csv
         * add wines of all the regions including those you've added using the above ROBOT template. 
+    * Noting the wines that were manually added (Chianti Classico (wine), Barbaresco, and Barolo), what are some of the limitations of templating systems?
+
 * Writing new templates
     * Write a new DOSDP for wine by varietal.
     * Write a ROBOT template for one-off addition of content (details TBD).

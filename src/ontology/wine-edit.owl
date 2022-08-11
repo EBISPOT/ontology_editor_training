@@ -15,7 +15,6 @@ Import(<http://purl.obolibrary.org/obo/wine/patterns/definitions.owl>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0010003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0020000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0020001>))
@@ -30,6 +29,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0030002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0040000>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco>))
 Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo>))
+Declaration(Class(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/WINE_0000001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/WINE_0000002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/WINE_0000003>))
@@ -82,11 +82,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0010000> "co
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0010001> "red")
 SubClassOf(<http://purl.obolibrary.org/obo/WINE_0010001> <http://purl.obolibrary.org/obo/WINE_0010000>)
-
-# Class: <http://purl.obolibrary.org/obo/WINE_0010002> (rose)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0010002> "rose")
-SubClassOf(<http://purl.obolibrary.org/obo/WINE_0010002> <http://purl.obolibrary.org/obo/WINE_0010000>)
 
 # Class: <http://purl.obolibrary.org/obo/WINE_0010003> (white)
 
@@ -152,6 +147,7 @@ AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/20
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco> <http://purl.obolibrary.org/obo/WINE_0030000>)
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000002> <http://purl.obolibrary.org/obo/WINE_0010001>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000003> <http://purl.obolibrary.org/obo/WINE_0020004>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barbaresco> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040006>))
 
 # Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> (Barolo)
 
@@ -159,6 +155,18 @@ AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/20
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> <http://purl.obolibrary.org/obo/WINE_0030000>)
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000002> <http://purl.obolibrary.org/obo/WINE_0010001>))
 SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000003> <http://purl.obolibrary.org/obo/WINE_0020004>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#Barolo> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040006>))
+
+# Class: <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> (Chianti Classico (wine))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> "A wine that comes from the original area dictated by the edict of Cosimo III de Medici would eventually be considered the heart of the modern \"Chianti Classico\" subregion.")
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> "Chianti Classico (wine)")
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> <http://purl.obolibrary.org/obo/WINE_0030000>)
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000002> <http://purl.obolibrary.org/obo/WINE_0010001>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000003> <http://purl.obolibrary.org/obo/WINE_0020001>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000003> <http://purl.obolibrary.org/obo/WINE_0020003>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/WINE_0000003> <http://purl.obolibrary.org/obo/WINE_0020005>))
+SubClassOf(<http://www.semanticweb.org/davidos/ontologies/2020/9/wine.owl#ChiantiClassico> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040005>))
 
 
 ############################
