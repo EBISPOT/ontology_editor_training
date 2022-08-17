@@ -20,10 +20,13 @@
     * ROBOT template for adding individuals 
         * add Spain and at least 3 of its regions (see https://en.wikipedia.org/wiki/Autonomous_communities_of_Spain)
         * add the Italian regions of Veneto and Etna.
+        * refresh the component using the ODK custom make goal by running `sh run.sh make components/regions.owl`
     * DOSDP for wine by region - extend csv
         * add wines of all the regions including those you've added using the above ROBOT template. 
+        * refresh patterns using the ODK
     * Noting the wines that were manually added (Chianti Classico (wine), Barbaresco, and Barolo), what are some of the limitations of templating systems?
 
 * Writing new templates
     * Write a new DOSDP for wine by varietal.
     * Write a ROBOT template for one-off addition of content (details TBD).
+\
