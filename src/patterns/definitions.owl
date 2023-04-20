@@ -7,8 +7,75 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/wine/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/wine/releases/2022-07-18/patterns/definitions.owl>
-Annotation(owl:versionInfo "2022-07-18"^^xsd:string)
+<http://purl.obolibrary.org/obo/wine/releases/2022-07-21/patterns/definitions.owl>
+Annotation(owl:versionInfo "2022-07-21"^^xsd:string)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0030000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WINE_0031007>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/WINE_0000001>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040001>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040002>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040003>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040004>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040005>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040006>))
+Declaration(NamedIndividual(<http://purl.obolibrary.org/obo/WINE_0040007>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031001> (wine of Italy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031001> "A wine that comes from the region of Italy."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031001> "wine of Italy"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040001>)))
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031002> (wine of France)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031002> "A wine that comes from the region of France."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031002> "wine of France"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040002>)))
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031003> (wine of Burgundy region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031003> "A wine that comes from the region of Burgundy region."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031003> "wine of Burgundy region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040003>)))
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031004> (wine of Chablis region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031004> "A wine that comes from the region of Chablis region."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031004> "wine of Chablis region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031004> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040004>)))
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031005> (wine of Chianti region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031005> "A wine that comes from the region of Chianti region."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031005> "wine of Chianti region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031005> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040005>)))
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031006> (wine of Piedmont region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031006> "A wine that comes from the region of Piedmont region."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031006> "wine of Piedmont region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040006>)))
+
+# Class: <http://purl.obolibrary.org/obo/WINE_0031007> (wine of Puglia region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WINE_0031007> "A wine that comes from the region of Puglia region."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WINE_0031007> "wine of Puglia region"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/WINE_0031007> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WINE_0030000> ObjectHasValue(<http://purl.obolibrary.org/obo/WINE_0000001> <http://purl.obolibrary.org/obo/WINE_0040007>)))
+
 
 
 )
